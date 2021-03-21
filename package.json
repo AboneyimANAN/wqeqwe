@@ -1,0 +1,40 @@
+{
+	"name": "alibot",
+	"version": "0.1.0",
+	"description": "Minecraft Bot",
+	"main": "index.js",
+	"bin": {
+		"alibot": "index.js"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"test": "npx nodemon ."
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"mineflayer": "^2.23.0",
+		"mineflayer-navigate": "0.0.10",
+		"mineflayer-tps": "^1.0.1",
+		"minimist": "^1.2.5",
+		"readline-sync": "^1.4.10",
+		"request": "^2.88.2",
+		"vec3": "^0.1.5"
+	},
+	"engines": {
+		"node": "12.x"
+	},
+	"license": "GPL-3.0",
+	"keywords": [
+		"minecraft"
+	],
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/uAliFurkanY/alibot-mc.git"
+	},
+	"author": "Ali Furkan YILDIZ",
+	"bugs": {
+		"url": "https://github.com/uAliFurkanY/alibot-mc/issues"
+	},
+	"homepage": "https://github.com/uAliFurkanY/alibot-mc#readme"
+}
